@@ -13,7 +13,7 @@ This site displays a lot of information about wonderful drawings  NFTs called 'w
 
 ## Demo
 
-https://arts-6i1ozgqyj-mostafashadow.vercel.app/
+https://arts-ruby.vercel.app/
 
 ## Install dependencies
 
