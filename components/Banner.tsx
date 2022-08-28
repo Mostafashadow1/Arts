@@ -46,6 +46,7 @@ const Banner = ({
       </div>
       <div className="flex  mx-auto md:mx-0 md:flex-[0.3]">
         <Image
+          priority
           src={image}
           alt="image"
           width={imageWidth ? imageWidth : "400"}
