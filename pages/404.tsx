@@ -7,6 +7,7 @@ const ErorrPage = () => {
     <div className="flex justify-center">
       <div>
         <Image
+          priority
           src={image}
           alt="image"
           height="300"
