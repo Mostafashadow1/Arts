@@ -20,8 +20,10 @@ const NftCard = ({ nft }: nftCardProps) => {
   const randomImage = Math.floor(Math.random() * images.length);
   return (
     <div className=" cursor-pointer mt-10 sm:rounded-tl-[40px] border hover:scale-105 rounded-lg overflow-hidden transition duration-150  text-white">
-      <div className=" bg-secondColor">
+      <div >
         <Image
+            placeholder="blur"
+          blurDataURL="base64"
           src={nft.image_url || images[randomImage]}
           alt="nft iamge"
           layout="responsive"
