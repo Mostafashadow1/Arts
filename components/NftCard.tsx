@@ -23,7 +23,7 @@ const NftCard = ({ nft }: nftCardProps) => {
       <div >
         <Image
             placeholder="blur"
-          blurDataURL="base64"
+          blurDataURL={nft.image_url ? nft.image_url : 'png'}
           src={nft.image_url || images[randomImage]}
           alt="nft iamge"
           layout="responsive"
